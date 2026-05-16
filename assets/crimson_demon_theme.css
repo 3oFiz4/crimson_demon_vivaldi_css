@@ -16,6 +16,7 @@ div#header {
 }
 /* when tab is not selected */
 :not(.ui-transparent-tabs).color-behind-tabs-on .tab {
+  color: white !important;
   background-color: #000 !important;
 }
 /* vivaldi logo button */

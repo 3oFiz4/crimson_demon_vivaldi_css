@@ -2,7 +2,7 @@
 
 My own personalized theme for vivaldi + custom CSS
 
-<img width="1375" height="953" alt="image" src="https://github.com/user-attachments/assets/42a4ac26-6d1c-4e7c-a1d8-8089ea16c2bf" />
+<img width="1920" height="976" alt="image" src="https://github.com/user-attachments/assets/9d1e3b0a-16f2-4452-af73-85613bf5aecf" />
 
 
 # Installation

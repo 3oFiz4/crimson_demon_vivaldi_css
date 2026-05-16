@@ -2,6 +2,9 @@
 
 My own personalized theme for vivaldi + custom CSS
 
+<img width="1375" height="953" alt="image" src="https://github.com/user-attachments/assets/42a4ac26-6d1c-4e7c-a1d8-8089ea16c2bf" />
+
+
 # Installation
 
 1. In `Settings/Themes` click `Import Theme` and select `assets/crimson_demon_theme.zip`
@@ -66,3 +69,14 @@ My own personalized theme for vivaldi + custom CSS
 3. Navigate to `vivaldi://experiments/`, search "Allow CSS modifications" and enable it
 4. In `Appearance/Custom UI Modifications` select the folder targetting `assets`
 5. Restart vivaldi
+6. (optional) you can improve this furhter by installing Vimium, and then copy and paste this setting below to Vimium setting:
+```
+# Insert your preferred key mappings here.
+unmap d
+unmap u
+map <c-j> scrollPageDown
+map <c-k> scrollPageUp
+map u visitPreviousTab
+unmap <a-p>
+unmap <a-m>
+```

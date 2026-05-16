@@ -1,0 +1,68 @@
+/* window header */
+div#header {
+  min-height: 0px !important;
+}
+/* when tab is selected */
+.tab-position[style*="--ZIndex: 2;"] .tab-wrapper {
+  border-inline: 1px solid #f00;
+}
+/* when tab is selected, background only */
+.tab-position[style*="--ZIndex: 2;"] .tab-header {
+  background-color: #f002;
+}
+/* when tab is non-select */
+.tab-position[style*="--ZIndex: 1;"] .tab-wrapper {
+  background-color: #000;
+}
+/* when tab is not selected */
+:not(.ui-transparent-tabs).color-behind-tabs-on .tab {
+  background-color: #000 !important;
+}
+/* vivaldi logo button */
+button.vivaldi {
+  display: none !important;
+}
+/* hide new tab button */
+div.button-toolbar.newtab {
+  display: none !important;
+}
+/* hide tab list button */
+div.button-toolbar.tabs-button {
+  display: none !important;
+}
+/* hide vivaldi logo (top left) and window controls (minimize, maximize, close) */
+#titlebar {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+/* add padding replacing vivaldi logo and window controls */
+#tabs-container {
+  padding-right: 10px !important;
+}
+
+/* center tab title */
+.tab .title {
+  justify-content: center !important;
+}
+/**/
+/* hide workspace indicator in tab menu */
+.button-toolbar.tabbar-workspace-button.workspace-popup {
+  display: none !important;
+}
+/* #footer { */
+/*   height: 10px !important; */
+/*   max-height: 20px !important; */
+/*   justify-content: center !important; */
+/* } */
+/* div.tabbar-wrapper { */
+/*   justify-content: center !important; */
+/* } */
+.tabs-bottom.density-on:not(.tabs-at-edge)
+  #tabs-tabbar-container:not(:has(#tabs-subcontainer)) {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+#tabs-tabbar-container.bottom {
+  padding: 0 0 0 0 !important;
+}

@@ -27,7 +27,8 @@ My own personalized theme for vivaldi + custom CSS
   <summary>
     Tabs settings
   </summary>
-<img width="1403" height="1072" alt="image" src="https://github.com/user-attachments/assets/a8cf5caa-b445-43a2-9eba-a522855726bc" />
+<img width="1631" height="908" alt="image" src="https://github.com/user-attachments/assets/b138fde1-1f6c-43bd-8950-698917ece3e2" />
+
 
 
 </details>
